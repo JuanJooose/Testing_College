@@ -152,7 +152,7 @@ namespace StringManipulation.Test
         /// <summary>
         /// Tests for the sixth option of menu
         /// 
-        /// Esta función no esta elaborada correctamente, ya que solo debe tomar una palabra y mediante esta determinar 
+        /// Esta funciï¿½n no esta elaborada correctamente, ya que solo debe tomar una palabra y mediante esta determinar 
         /// si la palabra palindroma o no.
         /// </summary>
         /// <param name="str"></param>
@@ -183,7 +183,7 @@ namespace StringManipulation.Test
 
         [Theory]
         [InlineData("Hola mundo", 'o', 2)]
-        [InlineData("Testing para páginas web", 'a', 3)]
+        [InlineData("Testing para pï¿½ginas web", 'a', 3)]
         public void CountOccurrences_Test_1_Equal(string str, char chr, int expect)
         {
             // Arrange
@@ -209,7 +209,7 @@ namespace StringManipulation.Test
 
         [Theory]
         [InlineData("Hola mundo", "Hola mundos")]
-        [InlineData("Testing para páginas web", "Testing para páginas webs")]
+        [InlineData("Testing para pï¿½ginas web", "Testing para pï¿½ginas webs")]
         public void Pluralize_Test_1_Equal(string str, string expect)
         {
             // Arrange
@@ -234,7 +234,7 @@ namespace StringManipulation.Test
 
         [Theory]
         [InlineData("Hola mundo", 10, "diez Hola mundos")]
-        [InlineData("Testing para páginas web", 3, "tres Testing para páginas webs")]
+        [InlineData("Testing para pï¿½ginas web", 3, "tres Testing para pï¿½ginas webs")]
         public void QuantityInWords_Test_1_Equal(string str, int quantity, string expect)
         {
             // Arrange
@@ -245,9 +245,7 @@ namespace StringManipulation.Test
 
             // Assert
             Assert.Equal(expect, ResultOfFunction);
-
         }
-
 
         /// <summary>
         /// Tests for the tenth option of menu
