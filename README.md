@@ -9,7 +9,23 @@
   
    - [Función 2 ReverseString](##Funcion-2-ReverseString)
  
-   - 
+   - [Función 3 GetStringLength](##Funcion-3-GetStringLength)
+ 
+   - [Función 4 RemoveWhitespace](##Funcion-4-RemoveWhitespace)
+ 
+   - [Función 5 ConcatenateStrings](##Funcion-5-ConcatenateStrings)
+ 
+   - [Función 6 IsPalindrome_Test](##Funcion-6-IsPalindrome_Test)
+ 
+   - [Función 7 CountOccurrences](##Funcion-7-CountOccurrences)
+ 
+   - [Función 8 Pluralize](##Función-8-Pluralize)
+ 
+   - [Función 9 QuantityInWords](##Funcion-9-QuantityInWords)
+ 
+   - [Función 10 FromRomanToNumber](##Funcion-10-FromRomanToNumber)
+ 
+   - [Función 11 - ReadFile](##Función-11-ReadFile)
 
 - [Bibliografía](#Bibliografía)
 
@@ -99,7 +115,7 @@ public void ReverseString_Test_2_NotNull()
 
 ```
 
-## Función 3 - GetStringLength
+## Función 3 GetStringLength
 
 Esta función requirió una prueba de exception ya que no se puede enviar un argumento nulos.
 
@@ -136,7 +152,7 @@ public void GetStringLength_Test_2_Exception()
 
 ```
 
-## Función 4 - RemoveWhitespace
+## Función 4 RemoveWhitespace
 
 Esta función solamente se requirió hacer una prueba unitaria.
 
@@ -163,7 +179,7 @@ public void RemoveWhitespace_Test_1_Equal()
 
 ```
 
-## Función 5 - TruncateString
+## Función 5 TruncateString
 
 Esta función solamente se requirió hacer una prueba unitaria.
 
@@ -199,7 +215,7 @@ public void TruncateString_Test_2_Exception()
 
 ```
 
-## Función 6 - IsPalindrome_Test
+## Función 6 IsPalindrome_Test
 
 Esta función no está elaborada correctamente, ya que solo debe tomar una palabra y mediante esta determinar si la palabra palindroma o no. Aquí se aplica nuevos atributos [Theory] e [InLineData].
 
@@ -230,9 +246,9 @@ public void IsPalindrome_Test_1_Equal(string str, bool expected)
 
 ```
 
-## Función 7 - CountOccurrences
+## Función 7 CountOccurrences
 
-
+Se aplica solamente una prueba unitaria aplicando los atributos nombrados anteriormente para comprobar de dos maneras la cual una consta de ser sencilla y la otra tendrá una letra con acentuación para ver si la función cumple con su objetivo.
 
 ```csharp,
 
@@ -256,6 +272,7 @@ public void CountOccurrences_Test_1_Equal(string str, char chr, int expect)
 ```
 
 ## Función 8 - Pluralize
+
 
 
 
@@ -288,6 +305,8 @@ public void Pluralize_Test_1_Equal(string str, string expect)
 ```
 
 ## Función 9 - QuantityInWords
+
+
 
 ```csharp,
 
