@@ -273,8 +273,7 @@ public void CountOccurrences_Test_1_Equal(string str, char chr, int expect)
 
 ## Función 8 - Pluralize
 
-
-
+Se hace solamente una prueba unitaria ya que solamente se agregará una S al final de la palabra, Donde se aplica el Equal para verificar este caso.
 
 ```csharp,
 
@@ -306,7 +305,7 @@ public void Pluralize_Test_1_Equal(string str, string expect)
 
 ## Función 9 - QuantityInWords
 
-
+Aplicando los atributos [Theory] e [InLineData] le hago el método Equal para validar si está devolviendo lo que debe. 
 
 ```csharp,
 
@@ -338,6 +337,8 @@ public void Pluralize_Test_1_Equal(string str, string expect)
 ```
 
 ## Función 10 - FromRomanToNumber
+
+En esta función se agrega la prueba unitaria de Exception para validar que si lance la exception de argumentos no válidos, garantizando que el usuario solo escriba los valores pertenecientes a los números romanos.
 
 ```csharp,
 
@@ -373,6 +374,8 @@ public void Pluralize_Test_1_Equal(string str, string expect)
 ```
 
 ## Función 11 - ReadFile
+
+Esta función se le agrega la prueba de exception el cual le dice al usuario que no encuentra el archivo, cuando se hacen las pruebas unitarias esta falla porque la función no lanza directamente la exception pero si la emplea. 
 
 ```csharp,
 
